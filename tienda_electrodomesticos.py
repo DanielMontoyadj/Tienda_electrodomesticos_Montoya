@@ -83,5 +83,9 @@ st.markdown("###Totales a pagar")
 st.write(f"**Subtotal general:** L {subtotal_producto:,.2f}")
 st.write(f"**ISV (15%):** L {isv:,.2f}")
 st.write(f"**Total a pagar:** L {total_pagar:,.2f}")
+st.write(f"**Factura a nombre de: **{nombre_cliente}")
+st.write(f"**RTN: **{identidad}")
+
+
 
 
